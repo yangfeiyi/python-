@@ -116,7 +116,6 @@ def findMinAndMax(L):  #查找一个list中最小和最大值，并返回一个t
 			max=n
 	return min,max
 print(findMinAndMax([1,2,3,4]))
-'''
 #代码优化：
 def findMinAndMax(L):  #查找一个list中最小和最大值，并返回一个tuple
 	if not isinstance(L,list):
@@ -148,4 +147,4 @@ def triangles(n):
 			pass
 		elif i==n:
 			L.append(1)
-'''
+
